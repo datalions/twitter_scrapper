@@ -1,2 +1,2 @@
 # twitter_scrapper
-Script for scrapping Twitter data
+Scripts for scrapping Twitter data
