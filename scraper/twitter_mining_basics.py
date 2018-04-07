@@ -31,7 +31,7 @@ for word in take_search_words(home + '/Documents/twitter/topics/'):
     while True:
         try:
             tweet = c_api.next()
-            save_a_tweet(tweet._json, word[:3])
+            save_a_tweet(tweet._json, word[:3].lower())
             log_correct_tweet = 'Date: {}, Keyword: {}, 1'.format(
                 datetime.now(), word
             )
